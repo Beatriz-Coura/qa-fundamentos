@@ -41,7 +41,7 @@ Outro ponto importante é diferenciar **QA (Quality Assurance)** e **QC (Quality
 
 ---
 
-<img width="700" height="700" alt="Modelo Linkedin (1)" src="https://github.com/user-attachments/assets/1342716a-d6d3-4c64-beff-664bb684fc95" />
+<img width="400" height="400" alt="Modelo Linkedin (1)" src="https://github.com/user-attachments/assets/1342716a-d6d3-4c64-beff-664bb684fc95" />
 
 ---
 
