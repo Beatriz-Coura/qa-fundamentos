@@ -40,7 +40,9 @@ Outro ponto importante é diferenciar **QA (Quality Assurance)** e **QC (Quality
 * **QC** = “O que chega ao usuário”. Ele verifica se o produto final está adequado.
 
 ---
-<img width="1080" height="1080" alt="Modelo Linkedin (1)" src="https://github.com/user-attachments/assets/1342716a-d6d3-4c64-beff-664bb684fc95" />
+
+<img width="700" height="700" alt="Modelo Linkedin (1)" src="https://github.com/user-attachments/assets/1342716a-d6d3-4c64-beff-664bb684fc95" />
+
 ---
 
 ### Materiais que usei como base
