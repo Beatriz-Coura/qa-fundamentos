@@ -28,7 +28,7 @@ Um **caso de teste** é como um **roteiro detalhado** que descreve os passos que
 
 ---
 
-### 🔹 O que é um **Tipo de Teste**
+### O que é um **Tipo de Teste**
 
 Um **tipo de teste** é uma **categoria de avaliação** usada para verificar diferentes aspectos do software.
 
@@ -44,7 +44,7 @@ Um **tipo de teste** é uma **categoria de avaliação** usada para verificar di
 
 ---
 
-### ⚖️ Comparação lado a lado
+### Comparação lado a lado
 
 | **Aspecto**               | **Caso de Teste**                                  | **Tipo de Teste**                            |
 | ------------------------- | -------------------------------------------------- | -------------------------------------------- |
