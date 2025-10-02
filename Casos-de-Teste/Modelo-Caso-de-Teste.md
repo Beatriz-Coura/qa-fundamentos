@@ -2,31 +2,31 @@
 
 Este modelo de **caso de teste** foi criado por mim, **Beatriz Freitas Coura Silva**, e serve como referência para a escrita de testes manuais de forma clara e estruturada.
 
-| Campo                       | Explicação                                                                                          |
-| --------------------------- | --------------------------------------------------------------------------------------------------- |
-| **ID Local**                | Identificação do caso de teste, usada como referência para o rastreamento. Exemplo: CT-001, CT-002. |
-| **Título do Caso de Teste** | Nome simples e objetivo que descreve o que será testado.                                            |
-| **Passos para Execução**    | Sequência de passos necessários para reproduzir o teste. Deve ser clara, ordenada e replicável.     |
-| **Dados de Teste**          | Informações de entrada usadas durante o teste (ex.: login, senha, CPF).                             |
-| **Resultado Esperado**      | O que o sistema deve apresentar quando o teste for executado corretamente.                          |
-| **Resultado Obtido**        | O que realmente aconteceu na execução. Preenchido durante a prática.                                |
-| **Status do Teste**         | Situação atual do teste: Novo, Executado, Aprovado, Reprovado.                                      |
-| **Criticidade**             | Grau de importância do caso de teste: Baixa, Média ou Alta.                                         |
+| **ID Local** | **Título do Caso de Teste**                 | **Pré-condições**                                           | **Passos para Execução**                        | **Dados de Teste**                       | **Resultado Esperado**                                | **Resultado Obtido**                               | **Status do Teste**                     | **Criticidade**      |
+| ------------ | ------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------- | ----------------------------------------------------- | -------------------------------------------------- | --------------------------------------- | -------------------- |
+| CT-001       | Descreva de forma curta o objetivo do teste | Condições que precisam estar configuradas antes da execução | Passos claros e numerados para realizar o teste | Entradas usadas (ex.: login, senha, CPF) | O que o sistema deve retornar se tudo estiver correto | O que aconteceu de fato (preenchido após execução) | Novo / Executado / Aprovado / Reprovado | Baixa / Média / Alta |
+
+## 📌 Explicação de cada campo
+
+* **ID Local** → Identificador único do caso de teste (ex.: CT-001). Facilita o rastreamento.
+* **Título do Caso de Teste** → Nome simples e objetivo que descreve a finalidade do teste.
+* **Pré-condições** → Situações necessárias antes da execução (ex.: usuário já cadastrado).
+* **Passos para Execução** → Lista numerada de ações que o testador deve seguir. Deve ser clara e replicável.
+* **Dados de Teste** → Valores de entrada a serem utilizados no teste (ex.: login, senha, CPF).
+* **Resultado Esperado** → O comportamento correto do sistema.
+* **Resultado Obtido** → O que realmente ocorreu (preenchido após execução).
+* **Status do Teste** → Indica a situação atual do caso: Novo, Executado, Aprovado, Reprovado.
+* **Criticidade** → Define a importância do teste (Baixa, Média ou Alta), de acordo com o impacto no negócio.
 
 ---
 
-# 📝 Exemplo Preenchido
+## Exemplo Preenchido
 
-| Campo                       | Valor                                                                                         |
-| --------------------------- | --------------------------------------------------------------------------------------------- |
-| **ID Local**                | CT-001                                                                                        |
-| **Título do Caso de Teste** | Login com credenciais válidas                                                                 |
-| **Passos para Execução**    | 1. Acessar a tela de login <br> 2. Digitar usuário e senha válidos <br> 3. Clicar em "Entrar" |
-| **Dados de Teste**          | Usuário: [beatriz@example.com](mailto:beatriz@example.com) <br> Senha: 123456                 |
-| **Resultado Esperado**      | Usuário deve acessar o painel principal                                                       |
-| **Resultado Obtido**        | *A preencher na execução*                                                                     |
-| **Status do Teste**         | Novo                                                                                          |
-| **Criticidade**             | Alta                                                                                          |
+
+| **ID Local** | **Título do Caso de Teste**   | **Pré-condições**             | **Passos para Execução**                                                                             | **Dados de Teste**                                                            | **Resultado Esperado**                                         | **Resultado Obtido** | **Status do Teste** | **Criticidade** |
+| ------------ | ----------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------- | ------------------- | --------------- |
+| CT-001       | Login com credenciais válidas | Usuário cadastrado no sistema | 1. Acessar tela de login <br> 2. Inserir usuário e senha válidos <br> 3. Clicar em "Entrar"          | Usuário: [beatriz@example.com](mailto:beatriz@example.com) <br> Senha: 123456 | Usuário acessa painel principal                                | *A preencher*        | Novo                | Alta            |
+| CT-002       | Login com senha inválida      | Usuário cadastrado no sistema | 1. Acessar tela de login <br> 2. Inserir usuário válido e senha incorreta <br> 3. Clicar em "Entrar" | Usuário: [beatriz@example.com](mailto:beatriz@example.com) <br> Senha: 999999 | Sistema exibe mensagem "Senha incorreta"                       | *A preencher*        | Novo                | Alta            |
 
 ---
 
@@ -35,4 +35,3 @@ Este modelo de **caso de teste** foi criado por mim, **Beatriz Freitas Coura Sil
 * Recomendo repetir cada teste **3 vezes** para maior confiabilidade.
 * Sempre que possível, execute em **diferentes plataformas e navegadores**.
 * Adicione **evidências** (prints, vídeos, logs) como anexos para fortalecer o registro.
-
