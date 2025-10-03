@@ -1,6 +1,6 @@
-# 📖 Caderno 01 – O que é QA
+## 📖 Caderno 01 – O que é QA
 
-## O que é Quality Assurance
+### O que é Quality Assurance
 
 Quando falamos em **Quality Assurance (QA)**, muita gente pensa apenas em testar o software no final do processo, mas QA vai muito além disso.
 QA significa **assegurar a qualidade**, e isso envolve tanto **prevenir problemas** quanto **detectar falhas**.
@@ -9,7 +9,7 @@ QA significa **assegurar a qualidade**, e isso envolve tanto **prevenir problema
 
 ---
 
-## Diferença entre QA, QC e Testes
+### Diferença entre QA, QC e Testes
 
 É comum confundir QA, QC e o ato de “testar”. Aqui está a diferença:
 
@@ -29,7 +29,7 @@ Em palavras simples:
 
 ---
 
-## Papel do QA no ciclo de desenvolvimento de software (SDLC)
+### Papel do QA no ciclo de desenvolvimento de software (SDLC)
 
 * O QA participa **desde o início** do processo.
 * Contribui em **refinamentos** de requisitos, levantando dúvidas e riscos.
@@ -38,9 +38,9 @@ Em palavras simples:
 
 ---
 
-## Principais habilidades de um QA
+### Principais habilidades de um QA
 
-### **Técnicas (hard skills)**
+#### **Técnicas (hard skills)**
 
 * Escrita de **casos de teste** claros e eficazes.
 * Conhecimento de **tipos de teste** (funcionais, não funcionais, regressão, smoke etc.).
@@ -49,7 +49,7 @@ Em palavras simples:
 * Noções de **automação de testes** (Selenium, Cypress, Postman, etc.).
 * Familiaridade com **metodologias ágeis**.
 
-### **Comportamentais (soft skills)**
+#### **Comportamentais (soft skills)**
 
 * **Atenção aos detalhes** → enxergar inconsistências.
 * **Pensamento analítico** → quebrar problemas em partes menores.
@@ -59,7 +59,7 @@ Em palavras simples:
 
 ---
 
-## 📚 Materiais de referência
+### 📚 Materiais de referência
 
 Durante esses estudos, consultei os seguintes artigos:
 
