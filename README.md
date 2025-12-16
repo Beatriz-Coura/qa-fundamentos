@@ -19,17 +19,17 @@ Este espaço funciona como um **caderno de estudos prático e teórico**, onde o
 - `Relatorios-de-Bugs/` → relatórios fictícios simulando ferramentas de gestão de bugs.  
 - `Planos-de-Teste/` → exemplos de planejamento de testes em cenários reais.  
 
-### 🗺️ Roadmap de Estudos  
+### Roadmap de Estudos  
 
 Este repositório segue como referência o [Awesome Quality Assurance Roadmap](https://github.com/fityanos/awesome-quality-assurance-roadmap/blob/master/translations/README_ptbr.md), adaptado para a minha jornada de aprendizado.  
 
 #### Progresso Atual  
 
-- ✅ **Caderno 01 – O que é QA**  
-- ⏳ **Caderno 02 – Testes Manuais vs Automatizados**  
-- 🔜 **Caderno 03 – Bug e seu Ciclo de Vida**  
-- 🔜 **Caderno 04 – Tipos de Teste x Cenários x Casos de Teste**  
-- 🔜 **Caderno 05 – Tipos de Teste (funcionais, não funcionais, etc.)**  
+- ✅ **Caderno 01 – O que é QA**
+- ✅ **Caderno 02 – Testes Manuais vs Automatizados**  
+- ✅ **Caderno 03 – Bug e seu Ciclo de Vida**  
+- ✅ **Caderno 04 – Tipos de Teste x Cenários x Casos de Teste**  
+- ⏳ **Caderno 05 – Tipos de Teste (funcionais, não funcionais, etc.)**  
 - 🔜 **Caderno 06 – Caso de Teste (boas práticas e modelo)**  
 - 🔜 **Caderno 07 – Técnicas de Teste**  
 - 🔜 **Caderno 08 – Pirâmide de Testes**
