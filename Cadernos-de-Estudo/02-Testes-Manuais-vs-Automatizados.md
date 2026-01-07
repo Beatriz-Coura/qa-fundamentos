@@ -1,105 +1,118 @@
-## 📖 Caderno 02 – Testes Manuais vs Automatizados
+## 📖 Caderno 02 - Testes Manuais vs Testes Automatizados
+
+### Introdução
+Uma das primeiras decisões que um QA precisa aprender a tomar é:  
+**quando testar manualmente e quando automatizar**.
+
+No início da carreira, é comum associar automação a “nível avançado” e testes manuais a algo simples.  
+Na prática (e como o CTFL reforça), **ambos são complementares** e têm papéis diferentes na estratégia de testes.
+
+---
 
 ### O que são Testes Manuais
+Os **testes manuais** são aqueles em que o QA executa os cenários de teste **diretamente**, sem o uso de scripts ou ferramentas de automação.
 
-Os **testes manuais** são aqueles em que o QA **executa os cenários de teste diretamente**, sem o auxílio de scripts ou ferramentas de automação.
+Eles envolvem:
+- seguir **casos de teste previamente definidos**
+- observar o comportamento do sistema
+- analisar se o software atende às expectativas do usuário
 
-* Envolvem seguir passo a passo os **casos de teste** previamente escritos.
-* Dependem da observação e análise do testador.
-* Muito úteis para verificar **experiência do usuário (UX)**, usabilidade e cenários exploratórios.
+Esse tipo de teste é muito importante para validar **usabilidade**, **experiência do usuário (UX)** e situações onde o olhar humano faz diferença.
 
-📌 Exemplos:
+#### 📌 Exemplos práticos
 
-* Acessar a tela de login e tentar entrar com credenciais corretas e incorretas.
-* Testar se o botão “Cadastrar” leva para a tela correta.
-* Explorar o sistema como um usuário real faria, buscando falhas inesperadas.
+- Acessar a tela de login e tentar entrar com credenciais corretas e incorretas  
+- Verificar se o botão “Cadastrar” direciona para a tela correta  
+- Explorar o sistema como um usuário real, buscando comportamentos inesperados  
 
-✅ **Vantagens**
+#### ✅ Vantagens dos testes manuais
 
-* Mais flexíveis (permitem exploração criativa).
-* Não exigem programação.
-* São mais baratos em curto prazo.
+- Flexibilidade para explorar cenários não previstos  
+- Não exigem conhecimento em programação  
+- Menor custo inicial  
 
-❌ **Desvantagens**
+#### ❌ Desvantagens dos testes manuais
 
-* Mais lentos e sujeitos a erros humanos.
-* Difíceis de repetir em grande escala.
+- Execução mais lenta  
+- Maior chance de erro humano  
+- Difíceis de repetir em grande escala  
 
 ---
 
 ### O que são Testes Automatizados
 
-Os **testes automatizados** são executados por meio de **scripts, códigos ou ferramentas** que reproduzem os cenários de teste de forma automática.
+Os **testes automatizados** utilizam scripts, códigos ou ferramentas para executar cenários de teste de forma automática.
 
-* Ideais para testes repetitivos e de regressão.
-* Garantem maior velocidade, padronização e escalabilidade.
+Eles são indicados principalmente para:
+- testes repetitivos  
+- testes de regressão  
+- validações que precisam ser executadas com frequência  
 
-📌 Exemplos:
+Segundo o **CTFL**, a automação ajuda a aumentar a **eficiência** dos testes, mas não substitui totalmente o teste manual.
 
-* Usar Selenium para validar automaticamente o login em diferentes navegadores.
-* Testes de API com Postman automatizados em uma pipeline CI/CD.
-* Testes de performance com JMeter.
+#### 📌 Exemplos práticos
 
-✅ **Vantagens**
+- Utilizar Selenium para validar login em diferentes navegadores  
+- Automatizar testes de API com Postman/Newman em uma pipeline CI/CD  
+- Executar testes de performance com JMeter  
 
-* Repetitivos, rápidos e consistentes.
-* Executam em larga escala (ex.: milhares de cenários em minutos).
-* Podem ser integrados em pipelines de entrega contínua (CI/CD).
+#### ✅ Vantagens dos testes automatizados
 
-❌ **Desvantagens**
+- Execução rápida e consistente  
+- Possibilidade de testar em larga escala  
+- Integração com pipelines de entrega contínua (CI/CD)  
 
-* Alto custo inicial (tempo para criar scripts e configurar).
-* Requerem conhecimentos técnicos (programação, frameworks, integração).
-* Demandam manutenção constante conforme o sistema muda.
+#### ❌ Desvantagens dos testes automatizados
+
+- Alto custo inicial de implementação  
+- Necessidade de conhecimento técnico  
+- Manutenção constante conforme o sistema evolui  
 
 ---
 
-### Quando usar Manual e quando usar Automatizado?
+### Quando usar testes manuais e quando usar testes automatizados?
 
-**Testes Manuais são indicados quando:**
+#### Testes manuais são mais indicados quando:
 
-* O sistema ainda está em fase inicial (muito instável).
-* É necessário validar **usabilidade e experiência do usuário**.
-* O cenário é **exploratório**, sem roteiro fixo.
+- O sistema ainda está em fase inicial ou instável  
+- É necessário avaliar **usabilidade e experiência do usuário**  
+- O objetivo é realizar **testes exploratórios**  
 
-**Testes Automatizados são indicados quando:**
+#### Testes automatizados são mais indicados quando:
 
-* O sistema já está estável.
-* Há **grande volume de testes repetitivos** (ex.: regressão).
-* Existe a necessidade de **velocidade e escala** (pipeline de CI/CD).
+- O sistema já está mais estável  
+- Existe um grande volume de testes repetitivos (como regressão)  
+- Há necessidade de rapidez e escala  
 
-O segredo está no **equilíbrio**:
+A principal conclusão (reforçada pelo CTFL) é que **não existe escolha certa ou errada**, e sim **uso estratégico**.
 
-* Testes manuais = ótimos para encontrar falhas criativas.
-* Testes automatizados = ótimos para garantir repetibilidade e velocidade.
-
-**Conclusão**: manual é mais detalhado e adaptável, mas lento. Automação é rápida e eficiente, mas precisa de investimento e planejamento.
+- Testes manuais ajudam a encontrar problemas que scripts não veem  
+- Testes automatizados ajudam a garantir consistência e agilidade  
 
 ---
 
 ### Ferramentas mais comuns
 
-#### **Para Testes Manuais**
+#### Ferramentas para testes manuais
 
-* Jira / Azure DevOps → gestão de casos e bugs.
-* TestRail → documentação de testes.
-* Trello → gestão mais simples de atividades.
+- **Jira / Azure DevOps** – gestão de casos de teste e bugs  
+- **TestRail** – documentação e organização de testes  
+- **Trello** – gestão simples de tarefas  
 
-#### **Para Testes Automatizados**
+#### Ferramentas para testes automatizados
 
-* **Selenium** → automação web.
-* **Cypress** → automação frontend moderna.
-* **JUnit / NUnit / xUnit** → testes unitários em diferentes linguagens.
-* **Postman / Newman** → testes de APIs.
-* **JMeter** → testes de performance.
+- **Selenium** – automação de testes web  
+- **Cypress** – automação moderna de aplicações frontend  
+- **JUnit / NUnit / xUnit** – testes unitários em diferentes linguagens  
+- **Postman / Newman** – testes automatizados de APIs  
+- **JMeter** – testes de performance  
 
 ---
 
-## 📚 Materiais de referência  
+### 📚 Materiais de referência
 
-- [O equilíbrio perfeito: automação e testes manuais na vida de uma QA – DIO](https://www.dio.me/articles/o-equilibrio-perfeito-automacao-e-testes-manuais-na-vida-de-uma-qa-51ac6d72a0a3)  
-- [Teste manual vs teste automatizado – Zup Blog](https://zup.com.br/blog/teste-manual-vs-teste-automatizado/)  
-- [Vídeo: Testes Manuais vs Automatizados (YouTube)](https://www.youtube.com/watch?v=FClweJfSzGY)  
-- [Tipos de Testes de Software – Atlassian](https://www.atlassian.com/br/continuous-delivery/software-testing/types-of-software-testing)  
-
-
+- [O equilíbrio perfeito: automação e testes manuais na vida de uma QA - DIO](https://www.dio.me/articles/o-equilibrio-perfeito-automacao-e-testes-manuais-na-vida-de-uma-qa-51ac6d72a0a3)  
+- [Teste manual vs teste automatizado - Zup Blog](https://zup.com.br/blog/teste-manual-vs-teste-automatizado/)  
+- [Vídeo: Testes Manuais vs Automatizados - YouTube](https://www.youtube.com/watch?v=FClweJfSzGY)  
+- [Tipos de Testes de Software - Atlassian](https://www.atlassian.com/br/continuous-delivery/software-testing/types-of-software-testing)  
+- **ISTQB Foundation Level (CTFL)** - referência conceitual para abordagens de teste e estratégia de automação
