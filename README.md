@@ -34,14 +34,14 @@ Todo o conteúdo foi organizado no formato de **cadernos de estudo**, casos de t
 A organização dos conteúdos segue como base o **Awesome Quality Assurance Roadmap**, combinado com conceitos do **ISTQB Foundation Level (CTFL)**, adaptados para uma abordagem prática e voltada a portfólio.
 
 #### 📘 Progresso Atual  
-- ✅ **Caderno 01 – O que é QA**  
-- ✅ **Caderno 02 – Testes Manuais vs Automatizados**  
-- ✅ **Caderno 03 – Bug e seu Ciclo de Vida**  
-- ✅ **Caderno 04 – Tipos de Teste x Cenários x Casos de Teste**  
-- ⏳ **Caderno 05 – Tipos de Teste** (funcionais, não funcionais, regressão, smoke, sanity…)  
-- 🔜 **Caderno 06 – Caso de Teste** (boas práticas e modelo)  
-- 🔜 **Caderno 07 – Técnicas de Teste**  
-- 🔜 **Caderno 08 – Pirâmide de Testes**  
+- ✅ **Caderno 01 - O que é QA**  
+- ✅ **Caderno 02 - Testes Manuais vs Automatizados**  
+- ✅ **Caderno 03 - Bug e seu Ciclo de Vida**  
+- ✅ **Caderno 04 - Tipos de Teste x Cenários x Casos de Teste**  
+- ✅ **Caderno 05 - Tipos de Teste** (funcionais, não funcionais, regressão, smoke, sanity…)  
+- ⏳ **Caderno 06 - Caso de Teste** (boas práticas e modelo)  
+- 🔜 **Caderno 07 - Técnicas de Teste**  
+- 🔜 **Caderno 08 - Pirâmide de Testes**  
 
 ---
 
