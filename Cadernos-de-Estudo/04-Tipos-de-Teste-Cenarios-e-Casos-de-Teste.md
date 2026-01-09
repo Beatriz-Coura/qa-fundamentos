@@ -124,4 +124,4 @@ Ou seja:
 
 - [Tipos de Testes de Software - Atlassian](https://www.atlassian.com/br/continuous-delivery/software-testing/types-of-software-testing)  
 - [Entenda a diferença entre Caso de Teste e Cenário de Teste - DIO](https://www.dio.me/articles/entenda-a-diferenca-caso-de-teste-cenario-de-teste)  
--  **ISTQB Foundation Level (CTFL)** - referência conceitual para defeitos, falhas e ciclo de vida do bug
+-  **ISTQB Foundation Level (CTFL)** - conceitos de tipos de teste e níveis de teste
