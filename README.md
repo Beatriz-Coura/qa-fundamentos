@@ -39,9 +39,9 @@ A organização dos conteúdos segue como base o **Awesome Quality Assurance Roa
 - ✅ **Caderno 03 - Bug e seu Ciclo de Vida**  
 - ✅ **Caderno 04 - Tipos de Teste x Cenários x Casos de Teste**  
 - ✅ **Caderno 05 - Tipos de Teste** (funcionais, não funcionais, regressão, smoke, sanity…)  
-- ⏳ **Caderno 06 - Caso de Teste** (boas práticas e modelo)  
-- 🔜 **Caderno 07 - Técnicas de Teste**  
-- 🔜 **Caderno 08 - Pirâmide de Testes**  
+- ✅ **Caderno 06 - Caso de Teste** (boas práticas e modelo)  
+- ✅ **Caderno 07 - Técnicas de Teste**  
+- ✅ **Caderno 08 - Pirâmide de Testes**  
 
 ---
 
