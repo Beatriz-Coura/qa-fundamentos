@@ -31,7 +31,7 @@ A ideia principal é:
 
 ---
 
-![Pirâmide de Testes](![alt text](image.png))
+<img width="512" height="410" alt="imagem piramide de teste" src="https://github.com/user-attachments/assets/3f3a76b0-2817-4426-be04-8680a03d62fc" />
 
 ---
 
